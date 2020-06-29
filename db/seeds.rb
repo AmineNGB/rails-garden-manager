@@ -24,5 +24,6 @@ garden_names.each do |garden_name|
     )
     plant.garden = garden
     plant.save!
+    sleep(2)
   end
 end
